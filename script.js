@@ -13,3 +13,10 @@ document.addEventListener("click", function (e) {
     navbarNav.classList.remove("active");
   }
 });
+
+// klik beli
+
+function sendwhatsapp() {
+  var phonenumber = "+6283845132496";
+  var url = "https://wa.me/" + phonenumber;
+}
